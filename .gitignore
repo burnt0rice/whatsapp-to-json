@@ -1,0 +1,7 @@
+# General
+.DS_Store
+.idea
+
+# Files
+_chat.txt
+chat.json
