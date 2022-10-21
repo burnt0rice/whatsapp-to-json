@@ -14,6 +14,15 @@ Run ``main.go`` with the chat txt path. Replace ``_chat.txt`` with the file path
 go run main.go -p "_chat.txt"
 ```
 
+Or run the binary for the specific os
+```shell
+#MacOS
+./whatsapp-to-json-darwin-amd64 -p "_chat.txt"
+
+#Linux
+./whatsapp-to-json-linux-amd64 -p "_chat.txt"
+```
+
 After running the code, there will be a new file called ``chat.json`` in the project directory.
 
 ## Example of the generated json file
